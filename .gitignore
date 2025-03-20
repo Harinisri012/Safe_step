@@ -1,0 +1,18 @@
+Depth-Anything/
+# Ignore Python virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+
+# Ignore logs and cache
+logs/
+*.log
+
+# Ignore model checkpoints and datasets
+*.h5
+*.pth
+datasets/
+
